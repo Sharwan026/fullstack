@@ -1,0 +1,73 @@
+.hometop{
+background-image: url("https://shivalikbank.com/assets/upload/services/farmer-finance--corp-loans.jpg") ;    
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+
+    
+}
+
+
+.explore{
+    background-color: #000000; /* Blue button color */
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 660px;
+  margin-top: 230px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+/* .panelfront{
+background-image: url("https://th.bing.com/th/id/OIP.FO8HVICNgZ8lBulHCED-1QHaFZ?w=248&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+background-repeat:no-repeat;
+background-size: cover;
+width: 250px;
+height: 250px;
+} */
+
+.TOPIC{
+    text-align: center;
+    font-size: 70px;
+}
+/* Assuming you have a className "buttonPanel" for your Panel */
+/* Assuming you have a className "buttonPanel" for your Panel */
+.buttonPanel {
+    border: 1px solid #1890ff;
+    border-radius: 4px;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1890ff;
+    color: #fff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;  /* Smooth transitions on hover */
+    height: 150px;
+    width: 368.2px;
+    float: left;
+    
+    /* Adding 3D effect with box-shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .buttonPanel:hover {
+    background-color: #40a9ff;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);  /* Adjusted box-shadow on hover for increased depth */
+  }
+.homez{
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fpikbest.com%2Fbackgrounds%2Ffarmer-work-group-of-farmers-working-in-rice-fields_9408627.html&psig=AOvVaw06JpHRE2ftF_dzDG39zKNn&ust=1706696138749000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMC1w9nwhIQDFQAAAAAdAAAAABAJ");
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.half{
+  flex: 1;
+    padding: 60px;
+    background-color: rgba(227, 71, 71, 0.571);
+    height:fit-content;
+}
+.applynow{
+  
+}
