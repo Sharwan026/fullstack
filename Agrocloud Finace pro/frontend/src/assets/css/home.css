@@ -1,0 +1,324 @@
+src/App.css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.App-header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.App-header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.banner {
+  height: 100vh;
+  display: flex;
+  align-items:safe;
+  /* justify-content: center; */
+  background-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/Farm-Wallpaper-HD-Free-download.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  color: white;
+  
+}
+
+.wel-sub{
+  font-size: 20px;
+  color:white;
+}
+.welcome{
+  font-size: 70px;
+}
+
+.m{
+  margin-top: 200px;
+}
+.parallax-home{
+  height: 700px; /* Adjust height as needed */
+  background-image: url('https://agro-specs.com/uploads/posts/2025/09/massey-harris-22_1.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: safe;
+  /* justify-content: center; */
+}
+
+.parallax-content {
+  color: rgb(3, 3, 3);
+  text-align: center;
+}
+
+.intro{
+  margin-left: 300px;
+  margin-top: 180px;
+
+}
+
+.intro-content{
+  
+  margin-left: 600px;
+  font-size: 27px;
+  color: rgb(255, 255, 255);
+}
+
+.tit-intro{
+  margin-left: 400px;
+  font-size: 70px;
+}
+.content {
+  padding: 50px 0;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: safe;
+  background-image: url('https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/41ricefarming4NVT_1.png');
+
+}
+
+.key{
+  margin-top: 50px;
+
+}
+
+.key-title{
+  font-size: 70px;
+  color:black;
+}
+
+.keypoint1{
+  font-size: 27px;
+  color: rgb(255, 254, 254);
+}
+.contact {
+  
+ height: 100px;
+ background-color: #e8e8e8;
+  
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.submit-button-home{
+  background-color: #47f247cd;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 590px;
+    cursor: pointer;
+    width: 200px;
+}
+.submit-button-home:hover {
+  background-color: #45a049;
+  color: #51f46c;
+}
+
+/* styles.css */
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s ease;
+  width: 300px;
+  height: 60px;
+}
+.card2 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s ease;
+  width: 300px;
+  height: 60px;
+}
+.card3 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s ease;
+  width: 300px;
+  height: 60px;
+}
+
+.card1:hover {
+  transform: translateY(-5px);
+}
+.card2:hover {
+  transform: translateY(-5px);
+}
+.card3:hover {
+  transform: translateY(-5px);
+}
+
+.division-line {
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px;
+  width: 100px; /* Adjust as needed */
+}
+
+
+
+/* //---------------------------- */
+/* This is an example, feel free to delete this code */
+.tooltip-container {
+  --background: #333333;
+  --color: #e8e8e8;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color);
+  padding: 0.7em 1.8em;
+  border-radius: 8px;
+  text-transform: uppercase;
+  height: 60px;
+  width: 180px;
+  display: grid;
+  place-items: center;
+  border: 2px solid var(--color);
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  transform-origin: -100%;
+  transform: scale(1);
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.tooltip-container span:last-child {
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  opacity: 1;
+  background-color: var(--background);
+  z-index: -1;
+  border: 2px solid var(--background);
+  transform: scale(0);
+  transform-origin: 0;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  display: grid;
+  place-items: center;
+}
+
+.tooltip {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.3em 0.6em;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  background: var(--background);
+  z-index: -1;
+  border-radius: 8px;
+  scale: 0;
+  transform-origin: 0 0;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+
+.tooltip::before {
+  position: absolute;
+  content: "";
+  height: 0.6em;
+  width: 0.6em;
+  bottom: -0.2em;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  background: var(--background);
+}
+
+.tooltip-container:hover .tooltip {
+  top: -100%;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  scale: 1;
+  animation: shake 0.5s ease-in-out both;
+}
+
+.tooltip-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  color: white;
+  border-color: transparent;
+}
+
+.tooltip-container:hover span:last-child {
+  transform: scale(1);
+  left: 0;
+}
+
+.tooltip-container:hover .text {
+  opacity: 0;
+  top: 0%;
+  left: 100%;
+  transform: scale(0);
+}
+
+@keyframes shake {
+  0% {
+    rotate: 0;
+  }
+
+  25% {
+    rotate: 7deg;
+  }
+
+  50% {
+    rotate: -7deg;
+  }
+
+  75% {
+    rotate: 1deg;
+  }
+
+  100% {
+    rotate: 0;
+  }
+}

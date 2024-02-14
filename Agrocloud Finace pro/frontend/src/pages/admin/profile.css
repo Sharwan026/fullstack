@@ -1,0 +1,37 @@
+.gradient-custom {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%) !important;
+  }
+  
+  .gradient-custom .fa-edit {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+  
+  .gradient-custom h5 {
+    margin-bottom: 0 !important;
+  }
+  
+  .gradient-custom p {
+    font-size: .8rem !important;
+  }
+  
+  .gradient-custom hr {
+    border-top-color: rgba(255, 255, 255, .75);
+    width: 75% !important;
+  }
+  
+  .gradient-custom .fa-facebook, .gradient-custom .fa-twitter, .gradient-custom .fa-instagram {
+    color: rgba(255, 255, 255, .75);
+    transition: color .3s;
+  }
+  
+  .gradient-custom .fa-facebook:hover, .gradient-custom .fa-twitter:hover, .gradient-custom .fa-instagram:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .gradient-custom .fa-facebook {
+    margin-right: 1rem;
+  }
+  

@@ -1,0 +1,43 @@
+.contain {
+    overflow: hidden;
+}
+
+.topic2 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.panel-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.panel {
+    display: inline-block;
+    width: 440px;
+    height: 500px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.panel:hover {
+    transform: scale(1.05);
+}
+
+.parallax {
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.parallax img {
+    width: 100%;
+    height: auto;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.5s ease;
+}
+
+.parallax:hover img {
+    transform: translate3d(0, -10%, 0);
+}
